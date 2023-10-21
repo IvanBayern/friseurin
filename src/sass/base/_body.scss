@@ -1,0 +1,14 @@
+body {
+  background-color: var(--primery-bg-color);
+  color: var(--primery-text-color);
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+.header__scroll {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}

@@ -1,0 +1,23 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/visually-hidden';
+
+@import './base/body';
+@import './base/reset';
+
+@import './components/container';
+@import './components/modal';
+@import './components/button';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/solutions';
+@import './layout/example';
+@import './layout/cases';
+@import './layout/blog';
+@import './layout/team';
+@import './layout/callback';
+@import './layout/footer';

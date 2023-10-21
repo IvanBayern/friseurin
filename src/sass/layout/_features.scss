@@ -1,0 +1,101 @@
+.features {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-color: var(--primary-bg-color);
+
+  @include tablet {
+    padding-top: 40px;
+    padding-bottom: 47px;
+  }
+
+  @include desktop {
+    padding-bottom: 19px;
+  }
+}
+
+.features .container {
+  padding-right: 48px;
+  padding-left: 52px;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-left: 55px;
+    padding-right: 56px;
+  }
+
+  @include desktop {
+    padding-left: 66px;
+    padding-right: 66px;
+  }
+}
+
+.features__list {
+  @include tablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+  }
+
+  @include desktop {
+    justify-content: space-around;
+    gap: 71px;
+  }
+}
+
+.features__item {
+  text-align: center;
+}
+
+.features__item + .features__item {
+  @media screen and (max-width: 767px) {
+    margin-top: 18px;
+  }
+}
+
+.features__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+
+  width: 64px;
+  height: 64px;
+  border-radius: 33.5px;
+
+  background-color: var(--accent-color);
+
+  @include tablet {
+    margin-bottom: 15px;
+  }
+}
+
+.features__icon {
+  fill: var(--primary-bg-color);
+}
+
+.features__title-text {
+  margin-bottom: 15px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.66;
+
+  @include tablet {
+    font-size: 20px;
+    line-height: 1.65;
+    margin-bottom: 16px;
+  }
+}
+
+.features__text-bottom {
+  font-size: 16px;
+  line-height: 1.6;
+
+  @include tablet {
+    font-size: 18px;
+    line-height: 1.56;
+  }
+}
