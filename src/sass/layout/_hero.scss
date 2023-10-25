@@ -92,8 +92,8 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  width: 156px;
-  height: 45px;
+  width: 594px;
+  height: 420px;
   padding-left: 26px;
   padding-right: 30px;
   border: transparent;
@@ -102,4 +102,16 @@
     width: 165px;
     height: 48px;
   }
+}
+
+.hero__logo {
+  // display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+    margin: -160px auto;
+    width: 594px;
+    height: 420px;
+    color: #ffffff;
+    
+    
 }

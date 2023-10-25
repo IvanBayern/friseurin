@@ -4,6 +4,8 @@
 
   background-color: var(--primary-bg-color);
 
+  
+
   @include tablet {
     padding-top: 40px;
     padding-bottom: 47px;
@@ -73,7 +75,9 @@
 }
 
 .features__icon {
-  fill: var(--primary-bg-color);
+  fill: black;
+
+  // fill: var(--primary-bg-color);
 }
 
 .features__title-text {
