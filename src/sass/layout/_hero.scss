@@ -112,6 +112,12 @@
     width: 594px;
     height: 420px;
     color: #ffffff;
+    @include mobile {
+        width: 320px;
+      }
+        @include desktop {
+          width: 594px;
+        }
     
     
 }
