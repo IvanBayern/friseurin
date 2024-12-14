@@ -80,6 +80,6 @@ document.addEventListener('DOMContentLoaded', function () {
     this.classList.remove('active');
     document.body.classList.remove('modal-open');
   });
-}); // end ready
+}); 
 
 
