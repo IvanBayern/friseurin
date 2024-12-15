@@ -1,18 +1,5 @@
 .callback {
-  // background-image: url('../images/hero-mobile.jpg');
-  // @media screen and (min-width: 1360px) {
-  //     height: 768px;
-  //     padding-top: 279px;
-  //     padding-bottom: 284px;
-  //     background-image: url('../images/hero-desktop.jpg');
-  
-  //     @media (min-device-pixel-ratio: 2),
-  //     (-webkit-min-device-pixel-ratio: 2),
-  //     (min-resolution: 192dpi),
-  //     (min-resolution: 2dppx) {
-  //       background-image: url('../images/hero-desktop2x.jpg');
-  //     }
-  //   }
+ 
   background-color: #f4f4f4;
 }
 
@@ -59,101 +46,7 @@
   }
 }
 
-// .callback__title {
-//   width: 147px;
-//   margin-bottom: 34px;
 
-//   font-family: inherit;
-//   font-weight: 300;
-//   font-size: 38px;
-//   line-height: 1.26;
-//   text-align: center;
-
-//   @include tablet {
-//     margin-bottom: 43px;
-//     width: 305px;
-//   }
-// }
-
-// .callback-form {
-//   display: flex;
-//   flex-direction: column;
-// }
-
-// .callback-form__label:nth-child(1) {
-//   display: inline-block;
-//   margin-bottom: 36px;
-// }
-
-// .callback-form__label:nth-child(2) {
-//   display: inline-block;
-//   margin-bottom: 53px;
-
-//   @include desktop {
-//     margin-bottom: 60px;
-//   }
-// }
-
-// .callback-form__input {
-//   display: block;
-//   width: 260px;
-//   height: 40px;
-//   padding: 9px 5px 7px;
-
-//   background: var(--secondary-text-color);
-//   border: 1px solid #f5f5f5;
-
-//   font-family: inherit;
-//   font-weight: 400;
-//   font-size: 16px;
-//   line-height: 1.44;
-
-//   @include tablet {
-//     width: 324px;
-//     padding: 8px 5px;
-//     font-size: 18px;
-//     line-height: 1.28;
-//   }
-
-//   @include desktop {
-//     width: 620px;
-//     padding: 6px 5px;
-//     line-height: 1.56;
-//   }
-// }
-
-// .callback-form__button {
-//   width: 260px;
-//   height: 42px;
-//   display: inline-block;
-//   border: none;
-//   padding: 10px 108px;
-
-//   font-family: inherit;
-//   font-weight: 400;
-//   font-size: 16px;
-//   line-height: 1.38;
-
-//   background-color: var(--accent-color);
-//   border-radius: 5px;
-//   color: var(--secondary-text-color);
-
-//   transition: background-color var(--time) var(--function-animation);
-
-//   @include tablet {
-//     width: 324px;
-//     font-size: 18px;
-//   }
-
-//   @include desktop {
-//     width: 620px;
-//   }
-// }
-
-// .callback-form__button:hover,
-// .callback-form__button:focus {
-//   background-color: #66c37c;
-// }
 
 
 .callback__title {
